@@ -2317,9 +2317,9 @@ module.exports = class FortniteShop {
         }
       }
 
-      await fs.writeFileSync(path, canvas.toBuffer());
+   
 
-      return path;
+      return canvas.toBuffer();
     }
   }
 };
